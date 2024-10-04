@@ -1,2 +1,115 @@
 [2024-10-01 12:13:41,515: INFO: main: Welcome to our custom logging]
 [2024-10-01 12:22:52,185: INFO: main: Welcome to our custom logging]
+[2024-10-03 12:18:26,361: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:37:59,333: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:38:05,520: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:38:06,284: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:38:06,798: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:38:06,989: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:38:07,368: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:38:07,651: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:38:07,813: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:38:07,965: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:38:08,079: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-03 12:44:17,900: ERROR: 718914265: File not found error: Params file not found at path: params.yml]
+[2024-10-03 12:45:06,875: ERROR: 718914265: File not found error: Params file not found at path: params.yml]
+[2024-10-03 12:45:27,238: ERROR: 718914265: File not found error: Params file not found at path: params.yml]
+[2024-10-03 12:46:11,895: ERROR: 718914265: File not found error: Params file not found at path: params.yml]
+[2024-10-03 17:16:43,293: ERROR: 718914265: File not found error: Schema file not found at path: schema.yml]
+[2024-10-03 17:17:00,696: INFO: common: yaml file: config\config.yml loaded successfully]
+[2024-10-03 17:17:00,700: INFO: common: yaml file: params.yml loaded successfully]
+[2024-10-03 17:17:00,704: ERROR: 718914265: An error occurred: yaml file is empty]
+[2024-10-04 09:16:47,864: ERROR: 718914265: File not found error: Params file not found at path: params.yaml]
+[2024-10-04 09:16:56,178: ERROR: 718914265: File not found error: Params file not found at path: params.yaml]
+[2024-10-04 09:17:41,797: ERROR: 718914265: File not found error: Params file not found at path: params.yaml]
+[2024-10-04 09:18:18,162: ERROR: 718914265: File not found error: Params file not found at path: params.yaml]
+[2024-10-04 09:20:53,857: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-04 09:21:18,977: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-04 09:21:24,732: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-04 09:22:22,286: ERROR: 718914265: File not found error: Config file not found at path: config\config.yml]
+[2024-10-04 09:26:07,379: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-04 09:26:07,379: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-04 09:26:07,379: ERROR: 718914265: An error occurred: yaml file is empty]
+[2024-10-04 09:30:10,991: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-04 09:30:11,004: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-04 09:30:11,004: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-10-04 09:30:11,004: INFO: common: created directory at: artifacts]
+[2024-10-04 09:30:11,012: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-04 09:30:12,141: INFO: 2266277924: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9CCD:2DD03E:73DB15:91B7DF:66FF6850
+Accept-Ranges: bytes
+Date: Fri, 04 Oct 2024 04:00:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100030-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1728014417.612982,VS0,VE346
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e351fd6481237c504d86353cae7ea28e8f93909e
+Expires: Fri, 04 Oct 2024 04:05:16 GMT
+Source-Age: 0
+
+]
+[2024-10-04 09:30:12,176: INFO: 2266277924: Extracted zip file to: artifacts/data_ingestion]
+[2024-10-04 10:10:01,187: INFO: main: Welcome to our custom logging]
+[2024-10-04 10:10:18,975: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2024-10-04 10:10:18,977: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "D:\end-to-end-mlops\main.py", line 9, in <module>
+    obj.main()
+  File "d:\end-to-end-mlops\src\mlProject\pipeline\stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\end-to-end-mlops\src\mlProject\config\configuration.py", line 17, in __init__
+    if not os.path.exists(config_filepath):
+           ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+[2024-10-04 10:11:02,044: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2024-10-04 10:11:02,048: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-04 10:11:02,051: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-04 10:11:02,052: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-10-04 10:11:02,053: INFO: common: created directory at: artifacts]
+[2024-10-04 10:11:02,054: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-04 10:11:03,020: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9CCD:2DD03E:73DB15:91B7DF:66FF6850
+Accept-Ranges: bytes
+Date: Fri, 04 Oct 2024 04:41:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100020-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1728016868.729605,VS0,VE272
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a231baa437ec600ad14179f9b2b3f721635b457d
+Expires: Fri, 04 Oct 2024 04:46:08 GMT
+Source-Age: 0
+
+]
+[2024-10-04 10:11:03,036: INFO: data_ingestion: Extracted zip file to: artifacts/data_ingestion]
+[2024-10-04 10:11:03,038: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<
+
+x===============x]
