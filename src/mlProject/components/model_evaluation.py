@@ -6,10 +6,9 @@ import mlflow
 import mlflow.sklearn
 import numpy as np
 import joblib
-from pathlib import Path
 from mlProject.entity.config_entity import ModelEvaluationConfig
 from mlProject.utils.common import save_json
-
+from pathlib import Path
 
 
 class ModelEvaluation:
