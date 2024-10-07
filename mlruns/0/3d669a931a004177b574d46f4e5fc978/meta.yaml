@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/end-to-end-mlops/mlruns/0/3d669a931a004177b574d46f4e5fc978/artifacts
+end_time: 1728274324847
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d669a931a004177b574d46f4e5fc978
+run_name: amazing-frog-451
+run_uuid: 3d669a931a004177b574d46f4e5fc978
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728274281923
+status: 3
+tags: []
+user_id: HP

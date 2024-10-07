@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/end-to-end-mlops/mlruns/0/ea489bde8b2347f99a4f69458a3ef325/artifacts
+end_time: 1728125165346
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea489bde8b2347f99a4f69458a3ef325
+run_name: brawny-wren-276
+run_uuid: ea489bde8b2347f99a4f69458a3ef325
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728125152853
+status: 3
+tags: []
+user_id: HP
