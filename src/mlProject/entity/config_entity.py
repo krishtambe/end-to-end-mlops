@@ -10,6 +10,7 @@ class DataIngestionConfig:
     unzip_dir: Path
 
 
+
 @dataclass(frozen=True)
 class DataValidationConfig:
     root_dir: Path
@@ -17,10 +18,14 @@ class DataValidationConfig:
     unzip_data_dir: Path
     all_schema: dict
 
+
+
 @dataclass(frozen=True)
 class DataTransformationConfig:
     root_dir: Path
     data_path: Path
+
+
 
 @dataclass(frozen=True)
 class ModelTrainerConfig:
@@ -31,6 +36,9 @@ class ModelTrainerConfig:
     alpha: float
     l1_ratio: float
     target_column: str
+
+
+
 
 @dataclass(frozen=True)
 class ModelEvaluationConfig:

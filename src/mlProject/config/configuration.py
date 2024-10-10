@@ -1,9 +1,10 @@
-import os
-from mlProject.constants import * 
+from mlProject.constants import *
 from mlProject.utils.common import read_yaml, create_directories
-from mlProject.entity.config_entity import (DataIngestionConfig, DataValidationConfig,
-                                             DataTransformationConfig, ModelTrainerConfig,
-                                             ModelEvaluationConfig)
+from mlProject.entity.config_entity import (DataIngestionConfig,
+                                            DataValidationConfig,
+                                            DataTransformationConfig,
+                                            ModelTrainerConfig,
+                                            ModelEvaluationConfig)
 
 class ConfigurationManager:
     def __init__(
@@ -12,18 +13,6 @@ class ConfigurationManager:
         params_filepath = PARAMS_FILE_PATH,
         schema_filepath = SCHEMA_FILE_PATH):
 
-        print(f"Config file path: {config_filepath}")
-        print(f"Params file path: {params_filepath}")
-        print(f"Schema file path: {schema_filepath}")
-
-        # Check if config files exist and handle missing files gracefully
-        if not os.path.exists(config_filepath):
-            raise FileNotFoundError(f"Config file not found at path: {config_filepath}")
-        if not os.path.exists(params_filepath):
-            raise FileNotFoundError(f"Params file not found at path: {params_filepath}")
-        if not os.path.exists(schema_filepath):
-            raise FileNotFoundError(f"Schema file not found at path: {schema_filepath}")
-
         self.config = read_yaml(config_filepath)
         self.params = read_yaml(params_filepath)
         self.schema = read_yaml(schema_filepath)
@@ -31,6 +20,7 @@ class ConfigurationManager:
         create_directories([self.config.artifacts_root])
 
 
+    
     def get_data_ingestion_config(self) -> DataIngestionConfig:
         config = self.config.data_ingestion
 
@@ -61,6 +51,8 @@ class ConfigurationManager:
 
         return data_validation_config
     
+
+
     def get_data_transformation_config(self) -> DataTransformationConfig:
         config = self.config.data_transformation
 
@@ -72,6 +64,8 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
+    
+
 
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
@@ -94,6 +88,7 @@ class ConfigurationManager:
         return model_trainer_config
     
 
+
     def get_model_evaluation_config(self) -> ModelEvaluationConfig:
         config = self.config.model_evaluation
         params = self.params.ElasticNet
@@ -108,7 +103,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name = config.metric_file_name,
             target_column = schema.name,
-            mlflow_uri="https://dagshub.com/krishtambe/end-to-end-mlops.mlflow",
+            mlflow_uri="https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow",
            
         )
 

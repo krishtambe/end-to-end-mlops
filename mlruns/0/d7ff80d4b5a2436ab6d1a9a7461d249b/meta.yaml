@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/end-to-end-mlops/mlruns/0/d7ff80d4b5a2436ab6d1a9a7461d249b/artifacts
+end_time: 1728539328553
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d7ff80d4b5a2436ab6d1a9a7461d249b
+run_name: fortunate-mink-682
+run_uuid: d7ff80d4b5a2436ab6d1a9a7461d249b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728539315770
+status: 3
+tags: []
+user_id: HP
