@@ -7,12 +7,12 @@ from mlProject.pipeline.prediction import PredictionPipeline
 
 app = Flask(__name__) # initializing a flask app
 
-@app.route('/',methods=['GET'])  # route to display the home page
+@app.route('/', methods=['GET'])  # route to display the home page
 def homePage():
     return render_template("index.html")
 
 
-@app.route('/train',methods=['GET'])  # route to train the pipeline
+@app.route('/train', methods=['GET'])  # route to train the pipeline
 def training():
     os.system("python main.py")
     return "Training Successful!" 
